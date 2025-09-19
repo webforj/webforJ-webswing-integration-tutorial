@@ -111,7 +111,6 @@ This integration pattern provides:
 
 ## Learn More
 
-- [WebswingConnector Documentation](https://docs.webforj.com/docs/integrations/webswing)
+- [webforJ Official Documentation](https://docs.webforj.com/docs/integrations/webswing/overview)
 - [Webswing Official Site](https://www.webswing.org)
-- [webforJ Documentation](https://docs.webforj.com)
-- [Spring Boot with webforJ](https://docs.webforj.com/docs/introduction/get-started/spring-boot)
+- [Spring Boot with webforJ](https://docs.webforj.com/docs/integrations/spring/overview)
