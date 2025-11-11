@@ -22,7 +22,7 @@ This architecture enables progressive modernization: embed your existing Swing a
 ### 1. Build the Swing Application
 
 ```bash
-cd webforj-swing-app
+cd custom-table-app
 mvn clean package
 # Creates custom-table-app.jar
 ```
@@ -34,10 +34,19 @@ The Swing app automatically detects if it's running under Webswing and adapts it
 
 ### 2. Deploy to Webswing Server
 
-Copy `custom-table-app.jar` to your Webswing deployment and configure it to be accessible at:
-```
-http://localhost:8080/custom-table-app/
-```
+Use your Webswing admin console at http://localhost:8080/admin to add and configure your swing app. 
+
+In the admin console, configure:
+
+- **Application Name**: becomes part of the URL path (e.g., `custom-table-app` → `http://localhost:8080/custom-table-app/`)
+- **Main Class**: the entry point of your Swing app
+- **Classpath**: path to your app JAR and dependencies
+- **JVM Arguments**: memory settings, system properties, and other JVM options
+- **Home Directory**: working directory for the app
+
+> **Note:** Make sure to move your previously built custom-table-app.jar to the folder you set as your classpath.
+
+After configuration, your Swing app will be accessible at http://localhost:8080/custom-table-app/
 
 ### 3. Run the webforJ Application
 
