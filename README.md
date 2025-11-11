@@ -46,7 +46,7 @@ In the admin console, configure:
 
 > **Note:** Make sure to move your previously built custom-table-app.jar to the folder you set as your classpath.
 
-After configuration, your Swing app will be accessible at http://localhost:8080/customer-table-app/
+After configuration, your Swing app will be accessible at http://localhost:8080/custom-table-app/
 
 ### 3. Run the webforJ Application
 
