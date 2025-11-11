@@ -38,7 +38,7 @@ Use your webswing admin console at http://localhost:8080/admin to add and config
 
 In the admin console, configure:
 
-- **Application Name**: becomes part of the URL path (e.g., `customer-table-app` → `http://localhost:8080/customer-table-app/`)
+- **Application Name**: becomes part of the URL path (e.g., `custom-table-app` → `http://localhost:8080/custom-table-app/`)
 - **Main Class**: the entry point of your Swing app
 - **Classpath**: path to your app JAR and dependencies
 - **JVM Arguments**: memory settings, system properties, and other JVM options
