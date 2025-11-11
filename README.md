@@ -6,7 +6,7 @@ This tutorial demonstrates how to integrate existing Java Swing applications int
 
 The project consists of two applications:
 
-1. **Swing Application** (`webforj-swing-app`) - A traditional Java Swing customer management table
+1. **Swing Application** (`custom-table-app`) - A traditional Java Swing customer management table
 2. **webforJ Application** (`webforj-webswing-integration`) - A web app that embeds the Swing app
 
 This architecture enables progressive modernization: embed your existing Swing apps today, then gradually replace them with webforJ components over time.
