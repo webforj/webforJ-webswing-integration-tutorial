@@ -34,7 +34,7 @@ The Swing app automatically detects if it's running under Webswing and adapts it
 
 ### 2. Deploy to Webswing Server
 
-Use your webswing admin console at http://localhost:8080/admin to add and configure your swing app. 
+Use your Webswing admin console at http://localhost:8080/admin to add and configure your swing app. 
 
 In the admin console, configure:
 
